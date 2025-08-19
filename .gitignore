@@ -1,0 +1,13 @@
+node_modules
+.env
+dist
+
+---
+
+# Notes
+- This backend focuses on clarity and ready-to-run completeness. It is intentionally minimal (no refresh tokens, no role system) but production-ready patterns are used: Prisma, bcrypt, JWT, helmet, rate-limit, nodemailer.
+- After you run migrations, create an email app password or use a testing mail trap for `EMAIL_USER`/`EMAIL_PASS`.
+
+---
+
+# End of bundled project
